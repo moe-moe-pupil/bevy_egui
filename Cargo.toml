@@ -21,6 +21,7 @@ immutable_ctx = []
 manage_clipboard = ["arboard", "thread_local", "bytemuck"]
 open_url = ["webbrowser"]
 default_fonts = ["egui/default_fonts"]
+persistence = ["egui/persistence"]
 render = [
     "bevy_asset",
     "bevy_image",
