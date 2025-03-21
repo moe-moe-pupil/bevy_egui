@@ -202,8 +202,8 @@ impl EguiTransform {
     ) -> Self {
         EguiTransform {
             scale: Vec2::new(
-                1.0 / (render_target_size.width() / scale_factor),
-                -1.0 / (render_target_size.height() / scale_factor),
+                2.0 / (render_target_size.width() / scale_factor),
+                -2.0 / (render_target_size.height() / scale_factor),
             ),
             translation: Vec2::new(-1.0, 1.0),
         }

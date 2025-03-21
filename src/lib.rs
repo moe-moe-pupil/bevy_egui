@@ -1424,9 +1424,9 @@ pub fn update_ui_size_and_scale_system(
             egui::pos2(width, height),
         ));
 
-        context.ctx.get_mut().set_pixels_per_point(
-            new_render_target_size.scale_factor * context.egui_settings.scale_factor,
-        );
+        // context.ctx.get_mut().set_pixels_per_point(
+        //     new_render_target_size.scale_factor * context.egui_settings.scale_factor,
+        // );
 
         *context.render_target_size = new_render_target_size;
     }
