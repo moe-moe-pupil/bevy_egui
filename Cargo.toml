@@ -68,7 +68,7 @@ name = "render_egui_to_image"
 required-features = ["picking", "render", "bevy/bevy_gizmos"]
 
 [dependencies]
-egui = { git = "https://github.com/moe-moe-pupil/egui", branch = "master", default-features = false }
+egui = { git = "https://github.com/moe-moe-pupil/egui", branch = "patch-0.31.1", default-features = false }
 bevy_app = "0.15.0"
 bevy_derive = "0.15.0"
 bevy_ecs = "0.15.0"
@@ -116,7 +116,7 @@ bevy = { version = "0.15.0", default-features = false, features = [
     "webgl2",
     "x11",
 ] }
-egui = { git = "https://github.com/moe-moe-pupil/egui", branch = "master", default-features = false, features = ["bytemuck"] }
+egui = { git = "https://github.com/moe-moe-pupil/egui", branch = "patch-0.31.1", default-features = false, features = ["bytemuck"] }
 
 [target.'cfg(target_arch = "wasm32")'.dependencies]
 winit = "0.30"
