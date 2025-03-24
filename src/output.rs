@@ -82,6 +82,7 @@ pub fn process_output_system(
                         }
                     }
                 }
+                egui::OutputCommand::SetPointerPosition(pos2) => todo!(),
             }
         }
 
